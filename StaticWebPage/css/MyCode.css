@@ -1,0 +1,87 @@
+html {
+    font-size: 0.445px;
+}
+
+.w_div {
+    width: 864rem;
+    height: 1920rem;
+    margin: 0 auto;
+    background-color: rgb(255, 0, 0);
+}
+
+/* 头部******************************************** */
+
+.header {
+    width: 100%;
+    height: 105rem;
+    position: relative;
+    background-color: rgb(67, 147, 244);
+}
+
+.header .ball {
+    height: 69rem;
+    width: 69rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 26rem;
+    top: 16rem;
+    background-color: rgb(47, 119, 201);
+}
+
+.header p {
+    position: absolute;
+    left: 113rem;
+    top: 27rem;
+    font-size: 30rem;
+    color: rgb(255, 255, 255);
+}
+
+.header .mini_bu {
+    position: relative;
+    width: 210rem;
+    height: 69rem;
+    border-radius: 34rem;
+    top: 16rem;
+    left: 637rem;
+    background-color: rgb(47, 119, 201);
+}
+
+/* 身体******************************************** */
+
+.body1 {
+    width: 100%;
+    height: 960rem;
+    position: relative;
+    background-color: rgb(34, 129, 249);
+}
+
+.body1 .name {
+    position: absolute;
+    top: 81rem;
+    left: 372rem;
+    font-size: 40rem;
+    color: rgb(255, 255, 255);
+}
+
+.body1 .numb {
+    position: absolute;
+    top: 170rem;
+    left: 347rem;
+    font-size: 35rem;
+    color: rgb(255, 255, 255);
+}
+
+.body1 .code {
+    height: 363rem;
+    width: 363rem;
+    position: absolute;
+    top: 252rem;
+    left: 245rem;
+    background-color: #fff;
+    border-radius: 10rem;
+}
+
+.body1 .code img {
+    width: 330rem;
+    margin: 17rem;
+}

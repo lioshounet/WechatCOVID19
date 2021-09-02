@@ -1,0 +1,12 @@
+*.png
+*.jpg
+
+/H5_ss/img
+/StaticWebPage/img
+
+*.apk
+*/*.apk
+*/*/*.apk
+*/*/*/*.apk
+*/*/*/*/*.apk
+*/*/*/*/*/*.apk
