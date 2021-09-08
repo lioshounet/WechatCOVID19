@@ -12,17 +12,20 @@ html {
 /* 头部******************************************** */
 
 .header {
-    width: 100%;
+    position: sticky;
+    top: 0px;
+    width: 864rem;
     height: 105rem;
-    position: relative;
+    z-index: 1;
+    /* position: relative; */
     background-color: rgb(67, 147, 244);
 }
 
 .header .ball {
+    position: absolute;
     height: 69rem;
     width: 69rem;
     border-radius: 50%;
-    position: absolute;
     left: 26rem;
     top: 16rem;
     background-color: rgb(47, 119, 201);
@@ -32,7 +35,7 @@ html {
     position: absolute;
     left: 113rem;
     top: 27rem;
-    font-size: 30rem;
+    font-size: 35rem;
     color: rgb(255, 255, 255);
 }
 
@@ -83,5 +86,42 @@ html {
 
 .body1 .code img {
     width: 330rem;
+    /* margin: auto; */
     margin: 17rem;
+}
+
+/* 代人申领 */
+
+.bodyz .body1 .adili {
+    width: 245rem;
+    height: 77rem;
+    color: rgb(5, 128, 239);
+    background: rgb(255, 255, 255);
+    border-radius: 10rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 650rem;
+    padding: auto;
+    line-height: 77rem;
+    font-size: 40rem;
+}
+
+.bodyz .body1 .tiao {
+    width: 750rem;
+    height: 2rem;
+    position: relative;
+    top: 780rem;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.253);
+}
+
+.bodyz .body1 .uptime {
+    width: 750rem;
+    position: relative;
+    top: 780rem;
+    margin: auto;
+    line-height: 103rem;
+    font-size: 37rem;
+    color: #fff;
 }
